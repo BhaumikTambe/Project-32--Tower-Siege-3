@@ -131,7 +131,7 @@ function keyPressed(){
     if(hour >= 06 && hour<=12){
         bg = "dayG.png";
     }else{
-        bg = "nightG.jpg";
+        bg = "nightG.png";
     }
     backgroungImg = loadImage(bg);
     console.log(responseJSON);
